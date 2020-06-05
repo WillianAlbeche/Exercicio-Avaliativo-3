@@ -38,9 +38,12 @@ public class Palindromo {
         for (int i = 0; i <list.size()/2 ; i++) {
             if(list.get(j) == list.get(i)){
                 confere = true;
-                j--;
-            }
 
+            }
+            else{
+                 return confere = false;
+            }
+            j--;
         }
         if(confere == true){
             return true;
