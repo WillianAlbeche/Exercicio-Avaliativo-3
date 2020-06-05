@@ -30,7 +30,13 @@ public class LerTeclado {
         }while(c != 48);	// Tecla 0
         System.out.println("printando array:");
         list.mostrar();
-        System.out.println("\nÉ palindromo? "+list.ePalindromo());
+        if(list.ePalindromo() == true){
+            System.out.println("\nÉ palindromo? Sim!");
+        }
+        else{
+            System.out.println("É palindromo? Não!");
+        }
+
 
     }
 
