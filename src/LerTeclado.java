@@ -27,7 +27,7 @@ public class LerTeclado {
             catch(IOException e) {
                 System.out.println("Exceção: " + e);
             }
-         }while(c != 48);	// Tecla 0
+        }while(c != 48);	// Tecla 0
         System.out.println("printando array:");
         list.mostrar();
         if(list.ePalindromo() == true){
