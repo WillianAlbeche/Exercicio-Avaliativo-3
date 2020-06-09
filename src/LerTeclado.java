@@ -1,11 +1,8 @@
 
-
 import java.io.*;
-
-
 public class LerTeclado {
 
-
+//E3- POO BY Willian Magnum Albeche
     public static void main(String[] args) {
             Palindromo list = new Palindromo();
         int c = 0;
